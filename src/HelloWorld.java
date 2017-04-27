@@ -10,17 +10,15 @@ public class HelloWorld {
 
     }
 
-    /*数据类型
+    void basicDataType() {
+         /*数据类型
         * 整形：int,long,short,byte
         * 浮点类型：float,double：正无穷大，负无穷大，NaN：判断是不是数字
         * char类型：char,Unicode
         * boolean类型：boolean:false,true
-     * */
-//    NaN判断
-    public void doubleIsNaN {
+        * */
         double str = 5;
 
-//        String str = "aaaa";
         if (str == Double.NaN) {
             System.out.println("NaN这不是一个数字");
         } else {
@@ -32,21 +30,7 @@ public class HelloWorld {
         } else {
             System.out.println("isNaN这是一个数字");
         }
-    }
 
-    /*变量与常量
-    *
-    * */
-    public void varibleMethod {
-        int varible;
-        varible = 2;
-        System.out.println(varible);
-    }
-
-    /*
-    * 字符串
-    * */
-    public void stringMehod {
         String greetIng = "Hello";
         String s = greetIng.substring(0,3);
         String message = greetIng + s;
@@ -58,16 +42,9 @@ public class HelloWorld {
 
         //不区分大小写
         if (greetIng.equalsIgnoreCase(s)) {
-            
+
         }
-    }
 
-
-}
-
-public class Constants {
-
-    public static void main(String[] args) {
         final double CM_PER_INCH = 2.54;//final修饰表示只能赋值一次
 
         /*数学函数与常量
@@ -105,6 +82,20 @@ public class Constants {
         //强制转换
         int nx = (int)x;
         System.out.println(nx);
+    }
+
+    void stringMethod() {
+
+        String str1 = "Hello";
+        String str2 = str1.substring(0,2);
+        System.out.println(str1 + str2);
+
+        String str3 = str1.replace("Hel","World");
+        String str4 = str1.substring(0, 3);
+        System.out.println(str3,str4);
 
     }
+
 }
+
+
