@@ -5,12 +5,15 @@ import java.util.*;
  */
 public class HelloWorld {
 
+
+
     public static void main(String[] args) {
 
-        //输出Hello，World！
-        System.out.println("Hello, World!");
+        System.out.println("Hello,World!");
 
     }
+
+
 //
 //    void basicDataType() {
 //         /*数据类型
