@@ -10,6 +10,7 @@ public class Solution {
         //输出Hello，World！
         System.out.println("Hello, World111111!");
 
+        /*
         int[] array = {2, 9, 7, 11};
         int target = 9;
         Solution solution = new Solution();
@@ -22,7 +23,7 @@ public class Solution {
         node1 = (13);
         node2 = (34);
         node = solution.addTwoNumbers(node1,node2);
-        System.out.println(node);
+        System.out.println(node);*/
     }
 
     /**
