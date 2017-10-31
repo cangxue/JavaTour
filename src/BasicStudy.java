@@ -37,6 +37,7 @@ public class BasicStudy {
             t /= 10;
             mask *= 10;
         }
+
         System.out.println("mask = " + mask);
         do {
             int d = y / mask;
@@ -44,6 +45,8 @@ public class BasicStudy {
             y %= mask;
             mask /= 10;
         } while (y > 0);
+
+        System.out.println("打印结束");
     }
 
 }
