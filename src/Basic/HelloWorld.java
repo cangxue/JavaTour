@@ -1,18 +1,14 @@
+package Basic;
+
 import java.util.*;
 
 /**
  * Created by xiaoma on 17/4/24.
  */
 public class HelloWorld {
-
-
-
     public static void main(String[] args) {
-
-        System.out.println("Hello,World!");
-
+        System.out.println("Hello, World!");
     }
-
 
 //
 //    void basicDataType() {
